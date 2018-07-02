@@ -10,7 +10,7 @@ http.createServer(function (request, response) {
     });
 
     // 发送响应数据 "Hello World"
-    response.end('Hello World\n');
+    response.end('Hello  vv World\n');
 }).listen(1234);
 
 // 终端打印如下信息

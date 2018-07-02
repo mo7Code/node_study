@@ -1,6 +1,19 @@
 'use strict';
+var s="hello";
+function greet(name) {
+    console.log(s+","+name+"!")
+}
 
-var name = 'Node.js';
-var s = `Hello, ${name}!`;
+function hi(name) {
+    console.log('Hi, '+","+name+"!")
+}
 
-console.log(s);
+function goodbye(name) {
+    console.log('goodbye, '+","+name+"!")
+}
+
+module.exports = {
+    greet,
+    hi,
+    goodbye,
+};
