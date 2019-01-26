@@ -3,7 +3,6 @@ let url = require("url");
 let util = require("util");
 let fs = require("fs");
 let server = http.createServer((req, res) => {
-  res.statusCode = 200;
   const pathName = url.parse(req.url).pathname.substring(1);
   fs.readFile(pathName, (err, data) => {
     if (data) {
