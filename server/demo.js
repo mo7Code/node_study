@@ -1,5 +1,1 @@
-module.export = {
-  userName() {
-    return "Hello";
-  }
-};
+const user = require("./User.js");
